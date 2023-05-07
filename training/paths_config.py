@@ -1,8 +1,8 @@
 dataset_paths = {
-    "face_train": "/datagrid/personal/jahodpet/voxceleb/mp4_1_20_aligned",
-    "face_val": "/datagrid/personal/jahodpet/voxceleb/mp4_1_20_aligned",
-    "face_train_latents": "/datagrid/personal/jahodpet/voxceleb/mp4_1_20_restyle",
-    "face_val_latents": "/datagrid/personal/jahodpet/voxceleb/mp4_1_20_restyle",
+    "face_train": "",
+    "face_val": "",
+    "face_train_latents": "",
+    "face_val_latents": "",
 }
 model_paths = {
     "stylegan_ffhq": "pretrained_models/stylegan2-ffhq-config-f.pt",

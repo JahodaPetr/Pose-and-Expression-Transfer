@@ -1,7 +1,6 @@
 # Pose and Expression Transfer between face portraits
 
-Given a source and target face portrait, the designed network pro-
-duces an output image where the pose and expression from the source face
+Given a source and target face portrait, the designed network produces an output image where the pose and expression from the source face
 image are transferred onto the target identity. The architecture consists of
 two encoders and a mapping network that maps the two inputs into the latent
 space of StyleGAN2, which generates a high-quality image.

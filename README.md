@@ -1,6 +1,6 @@
 # Pose and Expression Transfer between face portraits
 
-![Pose and Expression Transfer](doc/Diagram.pdf)
+![Pose and Expression Transfer](/doc/Diagram.pdf)
 
 
 ## Requirements
@@ -18,12 +18,17 @@ Tested on Ubuntu 20.04 and Debian 10
 Clone this repository.
 ```
 git clone https://github.com/JahodaPetr/Pose-and-Expression-Transfer
-cd exptransfer
+cd Pose-and-Expression-Transfer
 ```
 
 Install dependencies
 ```
 conda env create -f environment.yml
+```
+
+Activate envirnoment
+```
+conda activate exptransfer
 ```
 
 Download required models :

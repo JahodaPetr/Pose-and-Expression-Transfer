@@ -39,6 +39,7 @@ conda activate exptransfer
 Download required models :
   * [Pretrained network](https://drive.google.com/file/d/11q5_a0NAceAeQ7-WyH8hjIROcYwlTAax/view?usp=share_link)
   * [ReStyle](https://drive.google.com/file/d/1sw6I2lRIB0MpuJkpc8F5BJiSZrc0hjfE/view)
+
 and save them to pretrained_models folder
 
 ## Inference
@@ -84,7 +85,7 @@ python inference.py \
 
 Additional notes: 
 * when using custom images, set aligned to False
-* Restyle network is necessary for using image target identity image or random identity generated via StyleGAN, but not for the first case, when latent code is already pre-calculated 
+* Restyle network is necessary for using target identity image or random identity generated via StyleGAN, but not for the first case, when latent code is already pre-calculated 
 
 ## Acknowledgements
 
